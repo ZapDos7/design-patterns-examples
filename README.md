@@ -41,3 +41,6 @@ DocumentHandler chain = new SlideshowHandler(new SpreadsheetHandler(new TextDocu
 we define the successor chain starting with a slideshow handler and ending with a text document handler. We then can add another handler if we need to handle another type of documents as the argument of the innermost constructor (here, `TextDocumentHandler`), after we implement said handler. 
 
 ## Challenge 1
+Implement request handling in a similar manner.
+
+## Pattern 2: The Command Pattern
