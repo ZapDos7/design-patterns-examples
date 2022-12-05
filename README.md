@@ -19,7 +19,7 @@
    - they use composition.
 
 ## Pattern 1: Chain of Responsibility
-*Used when it is decided in runtime which entity handles a request.*
+- Used when it is decided in runtime which entity handles a request.
 - Passes along a request until it is handled
 - Decouples the sender from the receiver
 - Example use cases:
@@ -44,3 +44,10 @@ we define the successor chain starting with a slideshow handler and ending with 
 Implement request handling in a similar manner.
 
 ## Pattern 2: The Command Pattern
+ - Useful when it is unknown *what is requested* or *what is receiving the request*.
+ - Encapsulate a request inside an object
+ - Decouples the object that invokes the command from the object that knows how to handle it.
+ - Useful for commands we wish to perform later on, e.g.:
+   - Support undo/redo functionality
+   - Queueing/logging requests to be performed at different times
+
