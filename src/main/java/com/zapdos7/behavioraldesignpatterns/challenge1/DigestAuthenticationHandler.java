@@ -1,7 +1,16 @@
 package com.zapdos7.behavioraldesignpatterns.challenge1;
 public class DigestAuthenticationHandler extends AuthenticationHandler {
 
-  public void handleRequest(String requestType) {
+  public DigestAuthenticationHandler(AuthenticationHandler next) {
+    super(next);
+  }
+
+  public void handleRequest(RequestTypeEnums requestType) {
+    if(RequestTypeEnums.DIGEST.equals(requestType)) {
+      System.out.println("Handling digest authentication request");
+    } else {
+      super.handleRequest(requestType);
+    }
   }
 
 }
