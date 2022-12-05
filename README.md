@@ -40,8 +40,8 @@ DocumentHandler chain = new SlideshowHandler(new SpreadsheetHandler(new TextDocu
 ```
 we define the successor chain starting with a slideshow handler and ending with a text document handler. We then can add another handler if we need to handle another type of documents as the argument of the innermost constructor (here, `TextDocumentHandler`), after we implement said handler. 
 
-## Challenge 1
-Implement request handling in a similar manner.
+### Challenge 1
+Implement request handling using the same design pattern.
 
 ## Pattern 2: The Command Pattern
  - Useful when it is unknown *what is requested* or *what is receiving the request*.
@@ -60,3 +60,6 @@ Starting:
  - Document (will hold the functionality of printing/saving documents) - the receiver.
 
 We then add the `Command` interface and its implementations for `SaveCommand` and `PrintCommand`.
+
+### Challenge 2
+Implement order handling using the same design pattern.
