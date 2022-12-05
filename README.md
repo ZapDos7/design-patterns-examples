@@ -63,3 +63,27 @@ We then add the `Command` interface and its implementations for `SaveCommand` an
 
 ### Challenge 2
 Implement order handling using the same design pattern.
+
+## Pattern 3: Interpreter Pattern
+Use Cases:
+ - write custom regular expressions
+ - write custom compiler
+ - translate human languages
+ - parse SQL
+ - create a simple calculator
+Key points:
+ - express a recurring problem as a sentence & interpret it
+ - define grammar
+ - build an abstract syntax tree
+Components:
+1. `Context` (what we handle, e.g. a `String`)
+2. Abstract `Expression` (defines a method `interpret(context)`)
+
+   Two possible implementations:
+   1. Terminal expression (the last time `interpret()` gets called)
+   2. Non terminal expression (calls the interpret method, which alters the context and then it passes it onto another expression until terminal expression)
+3. `Client` which creates instances of expression to interpret.
+
+Positives:
+- easy to extend/implement the grammar
+- works best with simple grammar (complex ones new a new expression class per new rule)
