@@ -51,3 +51,12 @@ Implement request handling in a similar manner.
    - Support undo/redo functionality
    - Queueing/logging requests to be performed at different times
 
+### Exercise 2
+Goal: Decouple BE functionality from FE (button clicking)
+
+Starting:
+ - GUI class: hold simple information for UI, also holds the main method.
+ - Button (with a `click()` method) - the invoker
+ - Document (will hold the functionality of printing/saving documents) - the receiver.
+
+We then add the `Command` interface and its implementations for `SaveCommand` and `PrintCommand`.
