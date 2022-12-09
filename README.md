@@ -107,3 +107,6 @@ The `iterator` is a seperate object which is responsible for moving along the li
 
 ### Exercise 4
 Create an iterator in order to print only the items that are in stock.
+
+### Challenge 4
+Create an iterator in order to print the names of the employees.
