@@ -4,36 +4,25 @@ import java.util.HashMap;
 
 public class ECommerceSite {
 
-  private Customer customer;
-  private Driver driver;
   private HashMap<String, Integer> stock;
 
-
-  public ECommerceSite(Customer customer) {
-    this.customer = customer;
-    this.driver = new Driver();
+  public ECommerceSite() {
     stock = new HashMap();
     stock.put("pens", 100);
     stock.put("pencils", 50);
-    stock.put("erasers", 75);
+    stock.put("paper", 500);
   }
 
-  public boolean checkInStock(String item, int quantity) {
-    if (stock.containsKey(item) && stock.get(item) > quantity) {
+  public void sell(String item, int amount) {
+    int newAmount = stock.get("pens") - amount;
+    stock.put(item, newAmount);
+  }
+
+  public boolean checkInStock(String item, int amount) {
+    if (stock.containsKey(item) && stock.get(item) > amount) {
       return true;
     } else {
       return false;
     }
   }
-
-  public void sell(String item, int quantity) {
-
-    int newQuantity = stock.get("pens") - quantity;
-    stock.put(item, newQuantity);
-
-    driver.deliver(item, quantity, customer);
-  }
-
-
-
 }
