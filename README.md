@@ -94,3 +94,7 @@ Implement a language interpreter which can also rename variables to meet Java co
 We create the `Expression` interface which defines the `interpret()` method & its implementations: `NameNotPrimitiveType`, `FirstLetterIsLowerCase`, `FirstLetterNotUnderscore`, which all handle their corresponding cases by altering the context. We can test this in the `Main` class.
 
 Therefore we check that firstly the variable name does not begin with `_`, then that it doesn't start with a capital letter and lastly that it's not a primitive type.
+
+### Challenge 3
+Implement a language interpreter which checks sentences for a capital first letter, no repeated words and that verifies that they end with a period.
+
