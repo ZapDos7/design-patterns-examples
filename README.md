@@ -133,3 +133,8 @@ Terms:
 
 Notes:
  - If the originator contains a lot of data, this pattern increases the memory usage (so it is might be best to omit it)
+
+ ### Exercise 6
+ Goal: Add `save` and `undo` operations onto a document handling app.
+
+ Beginning: The `TextDocument` which `write`s and `print`s the text and the `DocumentViewer` class which also contains the `main` method.
