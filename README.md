@@ -118,3 +118,6 @@ Loosely coupled objects communicate through the mediator.
 Given the existing implementation for the e-commerce site, implement the mediator pattern in order to introduce loose coupling onto the app. At the beginning, we notice that there is a circular dependency, as the `ECommerceSite` has a `Customer` field and vice versa.
 
 How we do this: we implement the `Mediator` class containing a field for each object in our app (`Customer`, `ECommerceSite` & `Driver`). We there create the method `buy()`. We also decouple the existing classes. We also alter the `Main` class accordingly, using the `Mediator`'s method.
+
+### Challenge 5
+Simplify the airport application using the Mediator Pattern in order to decouple the objects and ameliorate the code.
