@@ -7,11 +7,11 @@ public class Calculator {
     adder.add(10);
     System.out.println(adder.getResult());
 
-//    adder.save();
-//    adder.add(20);
-//    System.out.println(adder.getResult());
-//    adder.undo();
-//    System.out.println(adder.getResult());
+   adder.save();
+   adder.add(20);
+   System.out.println(adder.getResult());
+   adder.undo();
+   System.out.println(adder.getResult());
   }
 
 }
