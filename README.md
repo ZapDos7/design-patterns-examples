@@ -140,3 +140,6 @@ Notes:
  Beginning: The `TextDocument` which `write`s and `print`s the text and the `DocumentViewer` class which also contains the `main` method.
 
  Solution: We add the `Memento` class which contains the `state` field, we add a `Memento` field to the `TextDocument` class, and we also add there the methods to `save()` and `undo()` which utilize the pattern. We update the `main` method accordingly.
+
+ ### Challenge 6
+ Similarly, implement the memento pattern in order to handle the calculator app state.
