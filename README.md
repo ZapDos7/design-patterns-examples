@@ -110,3 +110,6 @@ Create an iterator in order to print only the items that are in stock.
 
 ### Challenge 4
 Create an iterator in order to print the names of the employees.
+
+## Pattern 5: Mediator Pattern
+Loosely coupled objects communicate through the mediator.
