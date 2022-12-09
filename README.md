@@ -138,3 +138,5 @@ Notes:
  Goal: Add `save` and `undo` operations onto a document handling app.
 
  Beginning: The `TextDocument` which `write`s and `print`s the text and the `DocumentViewer` class which also contains the `main` method.
+
+ Solution: We add the `Memento` class which contains the `state` field, we add a `Memento` field to the `TextDocument` class, and we also add there the methods to `save()` and `undo()` which utilize the pattern. We update the `main` method accordingly.

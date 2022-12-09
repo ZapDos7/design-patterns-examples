@@ -6,8 +6,11 @@ public class DocumentViewer {
 
   public static void main(String[] args) {
     textDocument.write("hello");
+    textDocument.save();
     textDocument.print();
     textDocument.write(" world");
+    textDocument.print();
+    textDocument.undo();
     textDocument.print();
   }
 
