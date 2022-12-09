@@ -121,3 +121,15 @@ How we do this: we implement the `Mediator` class containing a field for each ob
 
 ### Challenge 5
 Simplify the airport application using the Mediator Pattern in order to decouple the objects and ameliorate the code.
+
+## Pattern 6: Memento Pattern
+
+Without breaking the principle of encapsulation, we wish to retain & externalize the previous state of an object in order to implement e.g. the undo functionality.
+
+Terms:
+ - Originator: the object whose states we wish to retain
+ - Caretaker: the object changing the state of the originator
+ - Memento: the object between the two which handles the state change
+
+Notes:
+ - If the originator contains a lot of data, this pattern increases the memory usage (so it is might be best to omit it)
