@@ -104,3 +104,6 @@ Example uses: `Collections` class with `forEach` loops
 Benefits: agnostic as to the type of collection, as long as it implements `Collection`.
 
 The `iterator` is a seperate object which is responsible for moving along the list, keeping track of which elements have been traversed already.
+
+### Exercise 4
+Create an iterator in order to print only the items that are in stock.
