@@ -98,3 +98,9 @@ Therefore we check that firstly the variable name does not begin with `_`, then 
 ### Challenge 3
 Implement a language interpreter which checks sentences for a capital first letter, no repeated words and that verifies that they end with a period.
 
+## Pattern 4: Iterator Pattern
+Example uses: `Collections` class with `forEach` loops
+
+Benefits: agnostic as to the type of collection, as long as it implements `Collection`.
+
+The `iterator` is a seperate object which is responsible for moving along the list, keeping track of which elements have been traversed already.
