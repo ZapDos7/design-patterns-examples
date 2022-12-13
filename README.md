@@ -175,6 +175,10 @@ We create the `State` interface and we define the `pause()` and `play()` methods
 ### Challenge 8
 Similarly, refactor an app handling a fan's temperature. Note that the fan cannot go from low to high immediately, meaning we need to use the medium setting in between.
 ## Pattern 9: The Strategy Pattern
+Define a family of algorithms used dynamically selected based on whichever state we are. (e.g. different file encryption methods, different validation methods, different sorting algorithms, saving different file types etc)
+
+ - `context` which maintains a reference to the strategy objects
+ - `strategy` as an interface and its concrete implementations (which are not needed as of Java 8 - see below)
 ### Exercise 9
 ### Challenge 9
 
