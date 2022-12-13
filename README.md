@@ -168,6 +168,8 @@ Allows objects to alter their behaviour depending on their state (e.g. play/paus
 
 The `state` is seperated out from the client and is usually an interface, with concrete implementations for different states, which handle the behaviour based on the different state of the item.
 ### Exercise 8
+We implement a media player app with the state pattern.
+The `MediaPlayer` class contain the fields `state` and `icon` & the `Main` class handles the changes.
 ### Challenge 8
 
 ## Pattern 9: The Strategy Pattern
