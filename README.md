@@ -162,7 +162,7 @@ A simple social media platform which notifies one's connections when one updates
  - `SocialMediaFeed` represents our feed, with a `statuses` List of String field (*observer*)
  - `Main` which contains the main class. Initially it prints nothing as the elements are not observing each other
 ### Challenge 7
-
+Use the observer pattern to refactor an app which handles updates in traffic.
 ## Pattern 8: The State Pattern
 ### Exercise 8
 ### Challenge 8
