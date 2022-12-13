@@ -2,14 +2,14 @@ package com.zapdos7.behavioraldesignpatterns.exercise8;
 
 public class MediaPlayer {
 
-  private String state = "paused";
+  private State state = new PausedState();
   private String icon = "play button";
 
-  public void setState(String state) {
+  public void setState(State state) {
     this.state = state;
   }
 
-  public String getState() {
+  public State getState() {
     return state;
   }
 
@@ -22,27 +22,11 @@ public class MediaPlayer {
   }
 
   public void play() {
-    switch (state) {
-      case "paused":
-        setState("playing");
-        setIcon("pause button");
-        System.out.println("Video playing, icon set to " + getIcon());
-        break;
-      case "playing":
-        break;
-    }
+    getState().play(this);
   }
 
   public void pause() {
-    switch (state) {
-      case "paused":
-        break;
-      case "playing":
-        setState("paused");
-        setIcon("play button");
-        System.out.println("Video paused, icon set to " + getIcon());
-        break;
-    }
+    getState().pause(this);
   }
 
 }

@@ -170,6 +170,8 @@ The `state` is seperated out from the client and is usually an interface, with c
 ### Exercise 8
 We implement a media player app with the state pattern.
 The `MediaPlayer` class contain the fields `state` and `icon` & the `Main` class handles the changes.
+
+We create the `State` interface and we define the `pause()` and `play()` methods, with a `MediaPlayer` argument each. We then implement the `PlayingState` and the `PausedState`. We add a `State` field to the `MediaPlayer` class & also alter the `play()` & `pause()` methods.
 ### Challenge 8
 
 ## Pattern 9: The Strategy Pattern
