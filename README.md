@@ -157,6 +157,10 @@ Elements:
 *Note:* Prior to Java 9 there was the [`Observer`/`Observable` classes](https://docs.oracle.com/javase/9/docs/api/java/util/Observable.html#:~:text=Class%20Observable&text=Deprecated.,for%2Done%20correspondence%20with%20notifications.), but have since been deprecated, since they did not log enough information on the updates on the subject. Instead, it is recommended to use `PropertyChangeListener` and `PropertyChangeSuppport` classes.
 
 ### Exercise 7
+A simple social media platform which notifies one's connections when one updates their status, showing that update on their feed.
+ - `Connection` represents the connection with another user, with a `status` String field (*observable*)
+ - `SocialMediaFeed` represents our feed, with a `statuses` List of String field (*observer*)
+ - `Main` which contains the main class. Initially it prints nothing as the elements are not observing each other
 ### Challenge 7
 
 ## Pattern 8: The State Pattern
