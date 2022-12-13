@@ -164,7 +164,9 @@ A simple social media platform which notifies one's connections when one updates
 ### Challenge 7
 Use the observer pattern to refactor an app which handles updates in traffic for various cities.
 ## Pattern 8: The State Pattern
+Allows objects to alter their behaviour depending on their state (e.g. play/pause button) simplifying the otherwise required if/else blocks we could use for this issue.
 
+The `state` is seperated out from the client and is usually an interface, with concrete implementations for different states, which handle the behaviour based on the different state of the item.
 ### Exercise 8
 ### Challenge 8
 
