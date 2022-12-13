@@ -143,3 +143,34 @@ Notes:
 
  ### Challenge 6
  Similarly, implement the memento pattern in order to handle the calculator app state.
+
+ # Java Design Patterns: Behavioral Part 2
+[LinkedIn course](https://www.linkedin.com/learning/java-design-patterns-behavioral-part-2?u=78611978) by [Bethan Palmer](https://www.linkedin.com/learning/instructors/bethan-palmer?u=78611978)
+
+## Pattern 7: The Observer Pattern
+Useful in OOP projects where many classes need to interact with each other without being tightly coupled; when many classes need to be notified of changes on another object.
+
+Elements:
+ - the subject/the observable object
+ - the observer(s), which watch the object
+
+*Note:* Prior to Java 9 there was the [`Observer`/`Observable` classes](https://docs.oracle.com/javase/9/docs/api/java/util/Observable.html#:~:text=Class%20Observable&text=Deprecated.,for%2Done%20correspondence%20with%20notifications.), but have since been deprecated, since they did not log enough information on the updates on the subject. Instead, it is recommended to use `PropertyChangeListener` and `PropertyChangeSuppport` classes.
+
+### Exercise 7
+### Challenge 7
+
+## Pattern 8: The State Pattern
+### Exercise 8
+### Challenge 8
+
+## Pattern 9: The Strategy Pattern
+### Exercise 9
+### Challenge 9
+
+## Pattern 10: The Template Method Pattern
+### Exercise 10
+### Challenge 10
+
+## Pattern 11: The Visitor Pattern
+### Exercise 11
+### Challenge 11
