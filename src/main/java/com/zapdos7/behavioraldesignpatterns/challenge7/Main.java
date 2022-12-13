@@ -7,6 +7,9 @@ public class Main {
     City springfield = new City();
     TrafficUpdates trafficUpdates = new TrafficUpdates();
 
+    sunnyville.addPropertyChangeListener(trafficUpdates);
+    springfield.addPropertyChangeListener(trafficUpdates);
+
     sunnyville.updateTraffic("Congestion in town center");
     springfield.updateTraffic("Accident on the highway");
 
