@@ -173,7 +173,7 @@ The `MediaPlayer` class contain the fields `state` and `icon` & the `Main` class
 
 We create the `State` interface and we define the `pause()` and `play()` methods, with a `MediaPlayer` argument each. We then implement the `PlayingState` and the `PausedState`. We add a `State` field to the `MediaPlayer` class & also alter the `play()` & `pause()` methods.
 ### Challenge 8
-Similarly, refactor an app handling a fan's temperature.
+Similarly, refactor an app handling a fan's temperature. Note that the fan cannot go from low to high immediately, meaning we need to use the medium setting in between.
 ## Pattern 9: The Strategy Pattern
 ### Exercise 9
 ### Challenge 9
