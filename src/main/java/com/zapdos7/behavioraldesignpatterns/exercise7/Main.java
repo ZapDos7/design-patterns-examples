@@ -7,6 +7,9 @@ public class Main {
     Connection bob = new Connection();
     SocialMediaFeed feed = new SocialMediaFeed();
 
+    sally.addPropertyChangeListener(feed);
+    bob.addPropertyChangeListener(feed);
+
     sally.setStatus("going for a walk");
     bob.setStatus("eating my lunch");
 
