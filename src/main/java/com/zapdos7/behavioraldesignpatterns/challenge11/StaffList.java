@@ -19,4 +19,10 @@ public class StaffList implements Employee {
     return salaries.stream().mapToInt(Employee::getSalary).sum();
   }
 
+  @Override
+  public void accept(Visitor visitor) {
+    salaries.forEach(s -> s.accept(visitor));
+    visitor.visit(this);
+  }
+
 }
