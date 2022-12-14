@@ -179,8 +179,10 @@ Define a family of algorithms used dynamically selected based on whichever state
 
  - `context` which maintains a reference to the strategy objects
  - `strategy` as an interface and its concrete implementations (which are not needed as of Java 8 - see below)
-### Exercise 9
+### Exercise 9 (+9b)
+Implement the above pattern on an app handling various encryption methods.
 ### Challenge 9
+Refactor an application handling customer payments with various ways.
 
 ## Pattern 10: The Template Method Pattern
 ### Exercise 10
