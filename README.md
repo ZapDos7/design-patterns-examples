@@ -191,6 +191,7 @@ It is important to note:
  - it can be difficult to communicate intent to users
  - it makes the program flow harder to follow/more complex
 ### Exercise 10
+Use the above pattern in order to remove duplicate code when printing two slightly different pizza recipes.
 ### Challenge 10
 
 ## Pattern 11: The Visitor Pattern
