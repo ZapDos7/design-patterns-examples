@@ -12,4 +12,7 @@ public class Bread implements Groceries {
     return price;
   }
 
+  public void accept(Visitor visitor) {
+    visitor.visit(this);
+  }
 }

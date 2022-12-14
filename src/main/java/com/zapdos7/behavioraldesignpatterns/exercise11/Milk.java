@@ -12,5 +12,7 @@ public class Milk implements Groceries {
     return price;
   }
 
-
+  public void accept(Visitor visitor) {
+    visitor.visit(this);
+  }
 }

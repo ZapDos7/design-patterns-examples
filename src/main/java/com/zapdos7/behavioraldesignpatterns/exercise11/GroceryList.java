@@ -19,4 +19,8 @@ public class GroceryList implements Groceries {
     return groceries.stream().mapToDouble(Groceries::getPrice).sum();
   }
 
+  public void accept(Visitor visitor) {
+    groceries.forEach(g -> g.accept(visitor));
+    visitor.visit(this);
+  }
 }

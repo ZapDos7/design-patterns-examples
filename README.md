@@ -210,4 +210,5 @@ The `Groceries` interface is extended by `Milk` and `Bread`, with `getPrice()` a
 Our goal is to apply a discount on all groceries, without altering the `GroceryList` class, as it does not need to be affected by this.
 
 1. We create a `Visitor` interface with `visit()` methods for each implementation of `Groceries` as well as the interface itself. We implement the methods in the `DiscountVisitor` implementation of `Visitor` and alter the main process accordingly.
+2. We add the `accept()` methods in the `Groceries` interface & the implementations (`Milk`, `Bread`, `GroceryList`) and update the main process accordingly.
 ### Challenge 11
