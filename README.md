@@ -195,5 +195,14 @@ Use the above pattern in order to remove duplicate code when printing two slight
 ### Challenge 10
 Use the above pattern in order to remove duplicate code for a simple RPG game.
 ## Pattern 11: The Visitor Pattern
+A visitor object handles the communication between objects.
+
+Having an interface with concrete implementations, we wish to apply some operation to each implementation, slightly different for each one. We could create a method to accept visitors in each implementation (defined in the interface) but this might be harder to understand or make changes to. Instead, we can create a Visitor interface, defining a visit method for each of the concrete implementations.
+
+Highly useful when having a composite or list of other elements. Best used when the elements are *not* likely to change.
+
+It's fairly complext & for specific only use cases, so it's scarce to be used.
+
+It makes use of the open-closed principle.
 ### Exercise 11
 ### Challenge 11
