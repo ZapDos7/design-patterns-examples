@@ -193,7 +193,7 @@ It is important to note:
 ### Exercise 10
 Use the above pattern in order to remove duplicate code when printing two slightly different pizza recipes.
 ### Challenge 10
-
+Use the above pattern in order to remove duplicate code for a simple RPG game.
 ## Pattern 11: The Visitor Pattern
 ### Exercise 11
 ### Challenge 11
