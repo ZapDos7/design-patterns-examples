@@ -185,6 +185,11 @@ Implement the above pattern on an app handling various encryption methods.
 Refactor an application handling customer payments with various ways.
 
 ## Pattern 10: The Template Method Pattern
+A superclass defines the (common) steps of an algorithm and the subclasses redefine some of these steps. This solves code duplication.
+
+It is important to note:
+ - it can be difficult to communicate intent to users
+ - it makes the program flow harder to follow/more complex
 ### Exercise 10
 ### Challenge 10
 
