@@ -1,6 +1,6 @@
 package com.zapdos7.behavioraldesignpatterns.challenge10;
 
-public class Troll {
+public class Troll extends Toon{
 
   public void pickUpWeapon() {
     System.out.println("Pick up club");
@@ -12,13 +12,6 @@ public class Troll {
 
   public void moveToSafety() {
     System.out.println("Return to the mountain");
-  }
-
-  public void defendAgainstAttack() {
-    pickUpWeapon();
-    defenseAction();
-    moveToSafety();
-    System.out.println();
   }
 
 }
