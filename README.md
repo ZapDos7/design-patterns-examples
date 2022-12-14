@@ -212,3 +212,4 @@ Our goal is to apply a discount on all groceries, without altering the `GroceryL
 1. We create a `Visitor` interface with `visit()` methods for each implementation of `Groceries` as well as the interface itself. We implement the methods in the `DiscountVisitor` implementation of `Visitor` and alter the main process accordingly.
 2. We add the `accept()` methods in the `Groceries` interface & the implementations (`Milk`, `Bread`, `GroceryList`) and update the main process accordingly.
 ### Challenge 11
+Use the Visitor pattern in order to refactor an app calculating employees salaries.
