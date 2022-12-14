@@ -205,4 +205,9 @@ It's fairly complext & for specific only use cases, so it's scarce to be used.
 
 It makes use of the open-closed principle.
 ### Exercise 11
+The `Groceries` interface is extended by `Milk` and `Bread`, with `getPrice()` and `setPrice()` methods. We also have the `GroceryList` class which `implements Groceries` and has a `ArrayList<Groceries> groceries` field. This returns the sum of the prices of all groceries in the list. The `Client` handles the main process.
+
+Our goal is to apply a discount on all groceries, without altering the `GroceryList` class, as it does not need to be affected by this.
+
+We create a `Visitor` interface
 ### Challenge 11
