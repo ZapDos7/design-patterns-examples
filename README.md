@@ -1,8 +1,44 @@
-# Java Design Patterns: Behavioral Part 1
-[LinkedIn course](https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1?u=78611978) by [Bethan Palmer](https://www.linkedin.com/learning/instructors/bethan-palmer?u=78611978)
+# Introduction
+
+A **design pattern** is a way of structuring code in order to solve a specific problem.
+
+Pros:
+ - common problems can have similar solutions
+ - reuse existing knowledge
+ - flexible, shorter, reusable, & more elegant code of better quality
+ - having guidelines saves time
 
 ## History
-[Design Patterns: Elements of Reusable Object-Oriented Software](http://www.javier8a.com/itc/bd1/articulo.pdf) (1994) by Erich Gamma, John Vlissides, Ralph Johnson, Richard Helm
+[Design Patterns: Elements of Reusable Object-Oriented Software](http://www.javier8a.com/itc/bd1/articulo.pdf) (1994) by Erich Gamma, John Vlissides, Ralph Johnson, Richard Helm (*the gang of four*)
+
+# Java Design Patterns: Creational
+[LinkedIn course](https://www.linkedin.com/learning/java-design-patterns-creational) by [Bethan Palmer](https://www.linkedin.com/learning/instructors/bethan-palmer)
+
+## What are creational design patterns?
+ - Used to abstract the process of instantiating objects, when the system should not be aware of how objects are created: they encapsulate the object creation code. They become more useful the larger & more complex our application becomes.
+ - They are about defining a small subset of behaviors that can be used for the basis of lots more complex behaviors
+ - Themes defining all creational design patterns:
+   - they encapsulate knowledge about which concrete class the system should use
+   - they conceal how objects are created and put together.
+
+## Pattern 1: The Builder Pattern
+ - Used when constructors are expected to be too complex, e.g. with a long list of parameters (wrong order of arguments may be given or sometimes not all information is required in the creation of an object)
+ - Used instead of the **telescoping constructor pattern**, aka having a large selection of possible constructors for each object (aka with all possible & useful combinations of parameters) while retaining the flexibility of our code
+
+### Exercise 1
+We have the class `Bedroom` containing 8 fields and the `Architect` class which manages the `main` class which creates `Bedroom` objects. Use the Builder Pattern in order to add flexibility to the app.
+
+## Pattern 2: The Singleton Pattern
+
+## Pattern 3: The Prototype Pattern
+
+## Pattern 4: The Factory Method Pattern
+
+## Pattern 5: The Abstract Factory Pattern
+
+
+# Java Design Patterns: Behavioral Part 1
+[LinkedIn course](https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1) by [Bethan Palmer](https://www.linkedin.com/learning/instructors/bethan-palmer)
 
 ## What are behavioral design patterns?
 - They are about how objects assign responsibilities between each other/how objects are connected & how they communicate & how responsibilities are assigned between them.
@@ -145,7 +181,7 @@ Notes:
  Similarly, implement the memento pattern in order to handle the calculator app state.
 
  # Java Design Patterns: Behavioral Part 2
-[LinkedIn course](https://www.linkedin.com/learning/java-design-patterns-behavioral-part-2?u=78611978) by [Bethan Palmer](https://www.linkedin.com/learning/instructors/bethan-palmer?u=78611978)
+[LinkedIn course](https://www.linkedin.com/learning/java-design-patterns-behavioral-part-2) by [Bethan Palmer](https://www.linkedin.com/learning/instructors/bethan-palmer)
 
 ## Pattern 7: The Observer Pattern
 Useful in OOP projects where many classes need to interact with each other without being tightly coupled; when many classes need to be notified of changes on another object.
@@ -213,3 +249,22 @@ Our goal is to apply a discount on all groceries, without altering the `GroceryL
 2. We add the `accept()` methods in the `Groceries` interface & the implementations (`Milk`, `Bread`, `GroceryList`) and update the main process accordingly.
 ### Challenge 11
 Use the Visitor pattern in order to refactor an app calculating employees salaries.
+
+# Java Design Patterns: Structural
+[LinkedIn course](https://www.linkedin.com/learning/java-design-patterns-structural) by [Bethan Palmer](https://www.linkedin.com/learning/instructors/bethan-palmer)
+
+## What are structural design patterns?
+
+## Pattern 1: The Adapter Pattern
+
+## Pattern 2: The Bridge Pattern
+
+## Pattern 3: The Composite Pattern
+
+## Pattern 4: The Decorator Pattern
+
+## Pattern 5: The Façade Pattern
+
+## Pattern 6: The Flyweight Pattern
+
+## Pattern 7: The Proxy Pattern
