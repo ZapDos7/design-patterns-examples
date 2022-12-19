@@ -28,6 +28,14 @@ Pros:
 ### Exercise 1
 We have the class `Bedroom` containing 8 fields and the `Architect` class which manages the `main` class which creates `Bedroom` objects. Use the Builder Pattern in order to add flexibility to the app.
 
+Solution: 
+
+a. [Simple] We create the `BedroomBuilder` class which contains setters for all `Bedroom` fields & the `createBedroom` method. The architect class now uses this builder's setters in order to specify whichever field we wish to set, and the rest are left with the default value (null). If this is not desirable, we may add a default value to the fields. I have added the logging in the main app & the `toString()` method for `Bedroom` in order to verify the results.
+
+b. [Complete] We expand the functionality of the app by adding the ability to create more types of rooms
+
+c. [Complex]
+
 ## Pattern 2: The Singleton Pattern
 
 ## Pattern 3: The Prototype Pattern

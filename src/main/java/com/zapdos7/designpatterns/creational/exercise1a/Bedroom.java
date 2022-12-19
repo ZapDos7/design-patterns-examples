@@ -1,4 +1,4 @@
-package com.zapdos7.designpatterns.creational.exercise1;
+package com.zapdos7.designpatterns.creational.exercise1a;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -28,5 +28,13 @@ public class Bedroom {
         this.isDouble = isDouble;
         this.hasEnsuite = hasEnsuite;        
     }
+
+    @Override
+    public String toString() {
+        return "Bedroom [dimensions=" + dimensions + ", ceilingHeight=" + ceilingHeight + ", floorNumber=" + floorNumber
+                + ", wallColor=" + wallColor + ", numberOfWindows=" + numberOfWindows + ", numberOfDoors="
+                + numberOfDoors + ", isDouble=" + isDouble + ", hasEnsuite=" + hasEnsuite + "]";
+    }
+    
     
 }
