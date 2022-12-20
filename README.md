@@ -88,6 +88,14 @@ We add the factory class which handles deciding which class to return, thus keep
 ### Exercise 4a
 Given a candy store simulation app, use the aforementioned pattern in order to ameliorate the code.
 
+### Exercise 4b
+
+Introduce hierarchy.
+
+### Exercise 4c
+
+The full example.
+
 ## Pattern 5: The Abstract Factory Pattern
 
 
