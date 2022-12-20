@@ -29,7 +29,7 @@ public class CarPriceCalculator implements PriceCalculator {
   @Override
   public String calculatePrice() {
     int price = Math.max(getRetailPrice() - (age * 100), 0);
-    return price + "USD";
+    return price + " USD";
   }
 
 }

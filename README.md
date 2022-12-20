@@ -353,7 +353,9 @@ The app calculates prices of different types of vehicles.
 
 At first we have the `PriceCalculator` interface with the `calculatePrice()` method, with two implementations (`CarPriceCalculator` and `TruckPriceCalculator`) (the formulas are random, simple ones for the sake of the example). The main class simply calculates & prints these prices.
 
-These prices are all in USD. Within the `lib` folder, we have `uk-car-price-calculator.jar`. Through its JavaDocs we can see that it has a class (`UKCarPriceCalculator`) with a constructor and a `getPrice()` method.
+These prices are all in USD. Within the `lib` folder, we have `uk-car-price-calculator.jar` (also as a dependency in out `pom`). Through its JavaDocs we can see that it has a class (`UKCarPriceCalculator`) with a constructor and a `getPrice()` method.
+
+Solution: We create an `Adapter` class implementing the `PriceCalculator` interface with a field `UKCarPriceCalculator`. We create a constructor and we override the `calculatePrice()` method.
 
 ## Pattern 2: The Bridge Pattern
 

@@ -1,5 +1,7 @@
 package com.zapdos7.designpatterns.structural.exercise1;
 
+import org.example.UKCarPriceCalculator;
+
 public class Main {
 
   public static void main(String[] args) {
@@ -9,6 +11,12 @@ public class Main {
     TruckPriceCalculator truckPriceCalculator = new TruckPriceCalculator(10, 0);
     printVehiclePrice(truckPriceCalculator);
 
+    UKCarPriceCalculator uKCarPriceCalculator = new UKCarPriceCalculator("BMW", 7);
+    // we can't call printVehiclePrice() as it expects a PriceCalculator
+
+    // solution: Adapter!
+    Adapter adapter = new Adapter(uKCarPriceCalculator);
+    printVehiclePrice(adapter);
   }
 
   public static void printVehiclePrice(PriceCalculator calculator) {
