@@ -1,5 +1,5 @@
 
-package com.zapdos7.designpatterns.creational.exercise2;
+package com.zapdos7.designpatterns.creational.exercise2a;
 
 /**
  *

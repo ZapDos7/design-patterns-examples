@@ -40,11 +40,18 @@ c. [Complex] We expand the app in order to create houses with rooms (via `RoomBu
 
 Used when we need to make sure only one instance of a class can be created (e.g. Windows managers, DB connectors, File managers, UI dialogs, resource allocators & spoolers). The Java API already uses this pattern in some of its classes (e.g. `System`, `Desktop` and `Runtime`)
 
-### Exercise 2
+### Exercise 2a
 In the `PrintSpooler` class we have a private constructor, thus not allowing any other class to initialize it. We also have the private method `init()` which would handle a more complex initialization process, and the method `getInstance()` which fetched the unique instance of `PrintSpooler` of our app.
 
 ### Exercise 2b
-Use the Singleton pattern in a multithreaded app
+Use the Singleton pattern in a multithreaded app.
+
+Solution: make the `getInstance()` method `synchronized`.
+
+### Exercise 2c
+Java's API of `SingletonList`, `SingletonSet` and `SingletonMap` can assist in the implementation of this pattern. Using these methods does not turn the collection into a singleton, but it does provide a single point of access that always returns the same instance.
+
+In this application, we wish to implement a network connector of resources.
 
 ## Pattern 3: The Prototype Pattern
 
