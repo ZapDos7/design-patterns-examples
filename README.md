@@ -98,6 +98,21 @@ The full example.
 
 ## Pattern 5: The Abstract Factory Pattern
 
+Provides an interface for creating families of objects, without specifying what their concrete typea are.
+
+Useful when there is a system that creates objects, but how these objects are created should be hidden from view. (families of objects), e.g. bike parts for different types of bikes.
+
+![The bike parts example as a graph](https://github.com/ZapDos7/design-patterns-examples/blob/master/graph.jpg?raw=true)
+
+This pattern improves consistency, as all bikes are created with the same parts, albeit different types of them.
+
+### Exercise 5a
+Start of the implementation.
+### Exercise 5b
+End result of the implementation.
+
+### Exercise 5c
+Make the above implementation extensible.
 
 # Java Design Patterns: Behavioral Part 1
 [LinkedIn course](https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1) by [Bethan Palmer](https://www.linkedin.com/learning/instructors/bethan-palmer)
