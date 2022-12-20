@@ -332,7 +332,21 @@ Use the Visitor pattern in order to refactor an app calculating employees salari
 
 ## What are structural design patterns?
 
+ - Design patterns refering to how classes and objects are structured & used together to form larger structures. 
+
+### Types of structural design patterns
+1. Class Patterns (`isA`)
+    - They are focused on how classes are structured & interact.
+    - They focus on inheritance
+2. Object Patterns (`hasA`)
+    - They are focused on how we use objects
+    - They allow objects to change behavior at runtime.
+
 ## Pattern 1: The Adapter Pattern
+
+It helps when we need to adapt a class from a e.g. third-party app to our own app's needs. We simply create the adapter interface to bridge the gap.
+
+*Fun fact! There are some examples of this pattern in the JDK itself. For example, the collections class has two methods lists and enumeration, which use the adapter pattern to provide compatibility with Legacy APIs that work with the enumerations. Another example is the as list method of the arrays class, which uses the adapter pattern to allow array based and collection based APIs to work together.*
 
 ## Pattern 2: The Bridge Pattern
 
@@ -345,3 +359,6 @@ Use the Visitor pattern in order to refactor an app calculating employees salari
 ## Pattern 6: The Flyweight Pattern
 
 ## Pattern 7: The Proxy Pattern
+
+## Further Reading
+ - [Design Pattern Catalog](https://java-design-patterns.com/patterns/)
