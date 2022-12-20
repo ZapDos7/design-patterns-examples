@@ -38,6 +38,8 @@ c. [Complex] We expand the app in order to create houses with rooms (via `RoomBu
 
 ## Pattern 2: The Singleton Pattern
 
+Used when we need to make sure only one instance of a class can be created (e.g. Windows managers, DB connectors, File managers, UI dialogs, resource allocators & spoolers). The Java API already uses this pattern in some of its classes (e.g. `System`, `Desktop` and `Runtime`)
+
 ## Pattern 3: The Prototype Pattern
 
 ## Pattern 4: The Factory Method Pattern
