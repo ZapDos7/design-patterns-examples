@@ -85,6 +85,9 @@ Used when a class (`candyStore`) doesn't know exactly what object types (`candy`
 
 We add the factory class which handles deciding which class to return, thus keeping the other classes immutable if another type of objects needs to be handled by the `candyStore` class, adding maintainability to the code.
 
+### Exercise 4a
+Given a candy store simulation app, use the aforementioned pattern in order to ameliorate the code.
+
 ## Pattern 5: The Abstract Factory Pattern
 
 
