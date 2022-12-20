@@ -11,6 +11,89 @@ Pros:
 ## History
 [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.javier8a.com/itc/bd1/articulo.pdf) (1994) by Erich Gamma, John Vlissides, Ralph Johnson, Richard Helm (*the gang of four*)
 
+## Table of Contents
+- [Java Design Patterns: Creational](#java-design-patterns--creational)
+  * [What are creational design patterns?](#what-are-creational-design-patterns-)
+  * [Pattern 1: The Builder Pattern](#pattern-1--the-builder-pattern)
+    + [Exercise 1](#exercise-1)
+  * [Pattern 2: The Singleton Pattern](#pattern-2--the-singleton-pattern)
+    + [Exercise 2a](#exercise-2a)
+    + [Exercise 2b](#exercise-2b)
+    + [Exercise 2c](#exercise-2c)
+  * [Pattern 3: The Prototype Pattern](#pattern-3--the-prototype-pattern)
+    + [Exercise 3a](#exercise-3a)
+    + [Exercise 3b](#exercise-3b)
+  * [Pattern 4: The Factory Method Pattern](#pattern-4--the-factory-method-pattern)
+    + [Exercise 4a](#exercise-4a)
+    + [Exercise 4b](#exercise-4b)
+    + [Exercise 4c](#exercise-4c)
+  * [Pattern 5: The Abstract Factory Pattern](#pattern-5--the-abstract-factory-pattern)
+    + [Exercise 5a](#exercise-5a)
+    + [Exercise 5b](#exercise-5b)
+    + [Exercise 5c](#exercise-5c)
+- [Java Design Patterns: Behavioral Part 1](#java-design-patterns--behavioral-part-1)
+  * [What are behavioral design patterns?](#what-are-behavioral-design-patterns-)
+  * [Types of behavioral design patterns:](#types-of-behavioral-design-patterns-)
+  * [Pattern 1: Chain of Responsibility](#pattern-1--chain-of-responsibility)
+    + [Exercise 1](#exercise-1-1)
+    + [Challenge 1](#challenge-1)
+  * [Pattern 2: The Command Pattern](#pattern-2--the-command-pattern)
+    + [Exercise 2](#exercise-2)
+    + [Challenge 2](#challenge-2)
+  * [Pattern 3: Interpreter Pattern](#pattern-3--interpreter-pattern)
+    + [Exercise 3](#exercise-3)
+    + [Challenge 3](#challenge-3)
+  * [Pattern 4: Iterator Pattern](#pattern-4--iterator-pattern)
+    + [Exercise 4](#exercise-4)
+    + [Challenge 4](#challenge-4)
+  * [Pattern 5: Mediator Pattern](#pattern-5--mediator-pattern)
+    + [Exercise 5](#exercise-5)
+    + [Challenge 5](#challenge-5)
+  * [Pattern 6: Memento Pattern](#pattern-6--memento-pattern)
+    + [Exercise 6](#exercise-6)
+    + [Challenge 6](#challenge-6)
+- [Java Design Patterns: Behavioral Part 2](#java-design-patterns--behavioral-part-2)
+  * [Pattern 7: The Observer Pattern](#pattern-7--the-observer-pattern)
+    + [Exercise 7](#exercise-7)
+    + [Challenge 7](#challenge-7)
+  * [Pattern 8: The State Pattern](#pattern-8--the-state-pattern)
+    + [Exercise 8](#exercise-8)
+    + [Challenge 8](#challenge-8)
+  * [Pattern 9: The Strategy Pattern](#pattern-9--the-strategy-pattern)
+    + [Exercise 9 (+9b)](#exercise-9---9b-)
+    + [Challenge 9](#challenge-9)
+  * [Pattern 10: The Template Method Pattern](#pattern-10--the-template-method-pattern)
+    + [Exercise 10](#exercise-10)
+    + [Challenge 10](#challenge-10)
+  * [Pattern 11: The Visitor Pattern](#pattern-11--the-visitor-pattern)
+    + [Exercise 11](#exercise-11)
+    + [Challenge 11](#challenge-11)
+- [Java Design Patterns: Structural](#java-design-patterns--structural)
+  * [What are structural design patterns?](#what-are-structural-design-patterns-)
+    + [Types of structural design patterns](#types-of-structural-design-patterns)
+  * [Pattern 1: The Adapter Pattern](#pattern-1--the-adapter-pattern)
+    + [Exercise 1](#exercise-1-2)
+    + [Challenge 1](#challenge-1-1)
+  * [Pattern 2: The Bridge Pattern](#pattern-2--the-bridge-pattern)
+    + [Exercise 2](#exercise-2-1)
+    + [Challenge 2](#challenge-2-1)
+  * [Pattern 3: The Composite Pattern](#pattern-3--the-composite-pattern)
+    + [Exercise 3](#exercise-3-1)
+    + [Challenge 3](#challenge-3-1)
+  * [Pattern 4: The Decorator Pattern](#pattern-4--the-decorator-pattern)
+    + [Exercise 4](#exercise-4-1)
+    + [Challenge 4](#challenge-4-1)
+  * [Pattern 5: The Façade Pattern](#pattern-5--the-fa-ade-pattern)
+    + [Exercise 5](#exercise-5-1)
+    + [Challenge 5](#challenge-5-1)
+  * [Pattern 6: The Flyweight Pattern](#pattern-6--the-flyweight-pattern)
+    + [Exercise 6](#exercise-6-1)
+    + [Challenge 6](#challenge-6-1)
+  * [Pattern 7: The Proxy Pattern](#pattern-7--the-proxy-pattern)
+    + [Exercise 7](#exercise-7-1)
+    + [Challenge 7](#challenge-7-1)
+  * [Further Reading](#further-reading)
+
 # Java Design Patterns: Creational
 [LinkedIn course](https://www.linkedin.com/learning/java-design-patterns-creational) by [Bethan Palmer](https://www.linkedin.com/learning/instructors/bethan-palmer)
 
@@ -362,15 +445,33 @@ Implement the aforementioned pattern in order to ameliorate the app printing cit
 
 ## Pattern 2: The Bridge Pattern
 
+### Exercise 2
+### Challenge 2
+
 ## Pattern 3: The Composite Pattern
+
+### Exercise 3
+### Challenge 3
 
 ## Pattern 4: The Decorator Pattern
 
+### Exercise 4
+### Challenge 4
+
 ## Pattern 5: The Façade Pattern
+
+### Exercise 5
+### Challenge 5
 
 ## Pattern 6: The Flyweight Pattern
 
+### Exercise 6
+### Challenge 6
+
 ## Pattern 7: The Proxy Pattern
+
+### Exercise 7
+### Challenge 7
 
 ## Further Reading
  - [Design Pattern Catalog](https://java-design-patterns.com/patterns/)
