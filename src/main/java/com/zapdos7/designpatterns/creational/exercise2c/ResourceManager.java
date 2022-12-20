@@ -21,9 +21,7 @@ public class ResourceManager {
         processResources(spoolers);
         
         PrintSpooler spooler2 = new PrintSpooler();
-        spoolers.add(spooler2);  
-                        
-
+        spoolers.add(spooler2);   // this will yield an error as per the API
     }
 
     /**
