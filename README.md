@@ -357,6 +357,9 @@ These prices are all in USD. Within the `lib` folder, we have `uk-car-price-calc
 
 Solution: We create an `Adapter` class implementing the `PriceCalculator` interface with a field `UKCarPriceCalculator`. We create a constructor and we override the `calculatePrice()` method.
 
+### Challenge 1
+Implement the aforementioned pattern in order to ameliorate the app printing city temperatures around the globe, therefore handling Fahrenheit as well as Celsius.
+
 ## Pattern 2: The Bridge Pattern
 
 ## Pattern 3: The Composite Pattern
