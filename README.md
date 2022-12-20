@@ -185,7 +185,7 @@ Provides an interface for creating families of objects, without specifying what 
 
 Useful when there is a system that creates objects, but how these objects are created should be hidden from view. (families of objects), e.g. bike parts for different types of bikes.
 
-![The bike parts example as a graph](https://github.com/ZapDos7/design-patterns-examples/blob/master/graph.png?raw=true)
+![The bike parts example as a graph](https://github.com/ZapDos7/design-patterns-examples/blob/master/bike-graph.png?raw=true)
 
 This pattern improves consistency, as all bikes are created with the same parts, albeit different types of them.
 
