@@ -16,12 +16,16 @@ public class Architect {
 //        ArrayList<Room> rooms = new ArrayList<>();
 //        rooms.add(room1);
 //        rooms.add(room2);   
+//
+//         House house = new House(rooms);   
 
 
 //        ArrayList<Room> rooms = new RoomListBuilder().addList()
 //                .addRoom(room1)
 //                .addRoom(room2)
 //                .buildList();
+//
+//         House house = new House(rooms);     
 
 
         ArrayList<Room> rooms = new RoomListBuilder().addList()
@@ -29,7 +33,7 @@ public class Architect {
                 .addRoom().setFloorNumber(1).addRoomToList()
                 .buildList();
 
-        House house2 = new House(rooms);
+        House house = new House(rooms);
 
     }
 
