@@ -348,6 +348,13 @@ It helps when we need to adapt a class from a e.g. third-party app to our own ap
 
 *Fun fact! There are some examples of this pattern in the JDK itself. For example, the collections class has two methods lists and enumeration, which use the adapter pattern to provide compatibility with Legacy APIs that work with the enumerations. Another example is the as list method of the arrays class, which uses the adapter pattern to allow array based and collection based APIs to work together.*
 
+### Exercise 1
+The app calculates prices of different types of vehicles.
+
+At first we have the `PriceCalculator` interface with the `calculatePrice()` method, with two implementations (`CarPriceCalculator` and `TruckPriceCalculator`) (the formulas are random, simple ones for the sake of the example). The main class simply calculates & prints these prices.
+
+These prices are all in USD. Within the `lib` folder, we have `uk-car-price-calculator.jar`. Through its JavaDocs we can see that it has a class (`UKCarPriceCalculator`) with a constructor and a `getPrice()` method.
+
 ## Pattern 2: The Bridge Pattern
 
 ## Pattern 3: The Composite Pattern
