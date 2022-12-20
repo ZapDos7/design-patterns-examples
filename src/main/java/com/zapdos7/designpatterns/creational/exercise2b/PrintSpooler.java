@@ -8,7 +8,7 @@ package com.zapdos7.designpatterns.creational.exercise2b;
 
 public class PrintSpooler {
     
-    private static PrintSpooler spooler;
+    private static PrintSpooler spooler; //we do not init here because it would lead to eager initialization
     
     private static boolean initialized = false;
     
