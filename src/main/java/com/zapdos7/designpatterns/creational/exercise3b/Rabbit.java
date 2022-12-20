@@ -56,7 +56,8 @@ public class Rabbit implements Cloneable {
     public Rabbit clone() {
         try {
             Rabbit rabbit = (Rabbit) super.clone();
-            //rabbit.owner = owner.clone();
+            rabbit.owner = owner.clone();
+            // with this line, the cloned rabbit has as owner a clone of the original rabbit's owner, not the owner itself.
             return rabbit;
         } catch (CloneNotSupportedException e) {
             throw new AssertionError();

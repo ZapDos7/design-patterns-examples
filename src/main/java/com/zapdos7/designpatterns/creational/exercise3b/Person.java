@@ -5,7 +5,7 @@ package com.zapdos7.designpatterns.creational.exercise3b;
  *
  * @author bethan
  */
-public class Person {
+public class Person implements Cloneable{
 
     private String name;
 
@@ -23,13 +23,13 @@ public class Person {
         return name;
     }
 
-//    @Override
-//    public Person clone() {
-//        try {
-//            return (Person) super.clone();
-//        } catch (CloneNotSupportedException e) {
-//            throw new AssertionError();
-//        }
-//    }
+   @Override
+   public Person clone() {
+       try {
+           return (Person) super.clone();
+       } catch (CloneNotSupportedException e) {
+           throw new AssertionError();
+       }
+   }
 
 }
