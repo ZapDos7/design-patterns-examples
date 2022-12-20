@@ -34,7 +34,7 @@ a. [Simple] We create the `BedroomBuilder` class which contains setters for all 
 
 b. [Complete] We expand the functionality of the app by adding the ability to create more types of rooms. We extract the `Builder` interface.
 
-c. [Complex]
+c. [Complex] We expand the app in order to create houses with rooms (via `RoomBuilder`) and they can also have multiple stores. We expand the builder in order to facilitate all of the aformentioned functionalities.
 
 ## Pattern 2: The Singleton Pattern
 
