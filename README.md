@@ -69,6 +69,15 @@ Elements:
  - abstract prototype class, with a `clone()` method.
  - concrete implementations which override the `clone()` method.
 
+### Exercise 3a
+We use an app which simulates rabbits breeding. We use the `Cloneable` interface provided by Java and override the `clone()` method. When we run the main process we see that the original and the clone rabbit both have the same age.
+
+However, the `clone()` method belongs to `Object`, not `Cloneable`. An alternative to this interface is the use of copy constructors. We could also just implement our own `clone()` method. Secondly, the `clone()` method only creates a shallow copy, meaning if a class contains mutable values, problems will arise.
+
+*Note: It is worth reading [Effective Java](https://www.goodreads.com/book/show/34927404-effective-java) by Joshua Bloch for more info about the issues of this interface.*
+
+### Exercise 3b
+
 ## Pattern 4: The Factory Method Pattern
 
 ## Pattern 5: The Abstract Factory Pattern
