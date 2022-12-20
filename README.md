@@ -77,6 +77,7 @@ However, the `clone()` method belongs to `Object`, not `Cloneable`. An alternati
 *Note: It is worth reading [Effective Java](https://www.goodreads.com/book/show/34927404-effective-java) by Joshua Bloch for more info about the issues of this interface.*
 
 ### Exercise 3b
+We add the field `Person owner` to the `Rabbit` class (a mutable object) and overcome the aforementioned issue. 
 
 ## Pattern 4: The Factory Method Pattern
 
