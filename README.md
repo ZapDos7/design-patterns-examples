@@ -43,6 +43,9 @@ Used when we need to make sure only one instance of a class can be created (e.g.
 ### Exercise 2
 In the `PrintSpooler` class we have a private constructor, thus not allowing any other class to initialize it. We also have the private method `init()` which would handle a more complex initialization process, and the method `getInstance()` which fetched the unique instance of `PrintSpooler` of our app.
 
+### Exercise 2b
+Use the Singleton pattern in a multithreaded app
+
 ## Pattern 3: The Prototype Pattern
 
 ## Pattern 4: The Factory Method Pattern
