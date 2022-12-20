@@ -40,6 +40,9 @@ c. [Complex] We expand the app in order to create houses with rooms (via `RoomBu
 
 Used when we need to make sure only one instance of a class can be created (e.g. Windows managers, DB connectors, File managers, UI dialogs, resource allocators & spoolers). The Java API already uses this pattern in some of its classes (e.g. `System`, `Desktop` and `Runtime`)
 
+### Exercise 2
+In the `PrintSpooler` class we have a private constructor, thus not allowing any other class to initialize it. We also have the private method `init()` which would handle a more complex initialization process, and the method `getInstance()` which fetched the unique instance of `PrintSpooler` of our app.
+
 ## Pattern 3: The Prototype Pattern
 
 ## Pattern 4: The Factory Method Pattern
