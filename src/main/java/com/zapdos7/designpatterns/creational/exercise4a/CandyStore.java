@@ -1,7 +1,5 @@
 package com.zapdos7.designpatterns.creational.exercise4a;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author bethan
@@ -10,27 +8,8 @@ public class CandyStore {
 
     public static void main(String[] args) {
         
-        
-        
-        
-
+        CandyFactory candyFactory = new CandyFactory();
+        candyFactory.getCandyPackage(12, "chocolate");
+        candyFactory.getCandyPackage(7, "hard candy");
     }
-
-    public static Candy getCandy(String type) {
-        switch (type) {
-            case "hard candy":
-                return new HardCandy();
-            case "chocolate":
-                return new Chocolate();
-            default:
-                return null;
-        }
-    }
-
-    public static ArrayList getCandyPackage(int quantity, String type) {
-        Candy candy = getCandy(type);
-        ArrayList candyPackage = candy.makeCandyPackage(quantity);
-        return candyPackage;
-    }
-
 }
