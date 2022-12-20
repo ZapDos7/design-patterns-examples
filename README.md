@@ -81,6 +81,10 @@ We add the field `Person owner` to the `Rabbit` class (a mutable object) and ove
 
 ## Pattern 4: The Factory Method Pattern
 
+Used when a class (`candyStore`) doesn't know exactly what object types (`candy`) need to be created.
+
+We add the factory class which handles deciding which class to return, thus keeping the other classes immutable if another type of objects needs to be handled by the `candyStore` class, adding maintainability to the code.
+
 ## Pattern 5: The Abstract Factory Pattern
 
 
