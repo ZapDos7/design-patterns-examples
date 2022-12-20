@@ -55,6 +55,20 @@ In this application, we wish to implement a network connector of resources.
 
 ## Pattern 3: The Prototype Pattern
 
+Makes copies of one original object.
+
+Useful when...
+ - we wish to create an object similar to one already created
+ - creating a new instance is a memory intense process (faster app, shorter & cleaner code)
+ - we want to keep the app agnostic to how an object is created
+ - classes are loaded dynamically
+
+This allows for cloned entities to still be modified.
+
+Elements:
+ - abstract prototype class, with a `clone()` method.
+ - concrete implementations which override the `clone()` method.
+
 ## Pattern 4: The Factory Method Pattern
 
 ## Pattern 5: The Abstract Factory Pattern
