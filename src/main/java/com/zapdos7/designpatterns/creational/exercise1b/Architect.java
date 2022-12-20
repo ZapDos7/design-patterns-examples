@@ -1,4 +1,3 @@
-
 package com.zapdos7.designpatterns.creational.exercise1b;
 
 import java.awt.Color;
