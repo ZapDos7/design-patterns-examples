@@ -445,6 +445,8 @@ Implement the aforementioned pattern in order to ameliorate the app printing cit
 
 ## Pattern 2: The Bridge Pattern
 
+Separates hierarchy: e.g. we have shapes (circle, triangle) which can be red and blue. Then we add the colour green, so we have to add new code in both shapes. If we desire to alter the red implementation, we alter all reds. If we add a new shape, we have to add all the colours again, etc - we differentiate the shape and the colour in different classes/trees. Now, when we add a new colour-shape combo, we use the existing, corresponding implementations (e.g. for blue & for triangle), instead of writing anew (largely duplicate) code.
+
 ### Exercise 2
 ### Challenge 2
 
