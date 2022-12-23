@@ -448,6 +448,12 @@ Implement the aforementioned pattern in order to ameliorate the app printing cit
 Separates hierarchy: e.g. we have shapes (circle, triangle) which can be red and blue. Then we add the colour green, so we have to add new code in both shapes. If we desire to alter the red implementation, we alter all reds. If we add a new shape, we have to add all the colours again, etc - we differentiate the shape and the colour in different classes/trees. Now, when we add a new colour-shape combo, we use the existing, corresponding implementations (e.g. for blue & for triangle), instead of writing anew (largely duplicate) code.
 
 ### Exercise 2
+Goal: Simplify the shapes & colours canvas app with the above pattern.
+
+Tip: Some IDEs can display the class relationships in a diagram, e.g. [IntelliJ](https://www.jetbrains.com/help/idea/class-diagram.html#analyze_class).
+
+Steps:
+
 ### Challenge 2
 
 ## Pattern 3: The Composite Pattern
