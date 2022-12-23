@@ -452,9 +452,13 @@ Goal: Simplify the shapes & colours canvas app with the above pattern.
 
 Tip: Some IDEs can display the class relationships in a diagram, e.g. [IntelliJ](https://www.jetbrains.com/help/idea/class-diagram.html#analyze_class).
 
-Steps:
-
 ### Challenge 2
+
+Refactor an app that draws buttons in a similar manner.
+
+We find that the buttons defined at the start of this challenge are named `Size` `Type` `Button`, where size: small, medium or large & type: radio, dropdown or checkbox.
+
+We therefore need to introduce the interface `ButtonSize`. We then remove the useless classes like `SmallCheckboxButton` & refactor the existing classes.
 
 ## Pattern 3: The Composite Pattern
 
