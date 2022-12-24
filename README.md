@@ -479,6 +479,8 @@ We add the `Payee` interface which defines the identical method. Now, `Manager`,
 
 ### Challenge 3
 
+Refactor similarly an app which simulates books checkouts & returns.
+
 ## Pattern 4: The Decorator Pattern
 
 ### Exercise 4
