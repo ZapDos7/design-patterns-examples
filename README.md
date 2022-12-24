@@ -462,7 +462,19 @@ We therefore need to introduce the interface `ButtonSize`. We then remove the us
 
 ## Pattern 3: The Composite Pattern
 
+**Varargs** in Java: methods whose argument is in this format: `method(Type... fieldName)`; this means when calling this method, we can pass as argument any amount of `Type` arguments.
+
+This is used when we want to treat single objects & groups of objects in the same manner, or when we have code that is very similar/identical to handle different types of objects.
+
 ### Exercise 3
+
+We have an app managing a company's expenses:
+ - `Manager` has a field `name` and a method `payExpenses(int amount)` which prints that the person with name `name` has been paid `amount` dollars.
+ - `Salesperson` has a field `Manager` and a field `name` & a similar `payExpenses()` method
+ - `SalesTeam` has two lists, one of `Manager`s and one for `SalesPerson`s and, again, the similar `payExpenses()` method.
+
+We can refactor these classes in order to unify the identical `payExpenses()` methods and reduce duplicate code..
+
 ### Challenge 3
 
 ## Pattern 4: The Decorator Pattern
