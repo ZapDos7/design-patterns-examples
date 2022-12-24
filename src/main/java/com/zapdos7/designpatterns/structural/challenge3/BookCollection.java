@@ -2,28 +2,19 @@ package com.zapdos7.designpatterns.structural.challenge3;
 
 import java.util.ArrayList;
 
-public class BookCollection {
+public class BookCollection implements Book {
 
-  private ArrayList<NonfictionBook> nonfictionBooks = new ArrayList();
-  private ArrayList<FictionBook> fictionBooks = new ArrayList();
+  private ArrayList<Book> books = new ArrayList<>();
 
-  public void addNonfictionBook(NonfictionBook nonfictionBook) {
-    nonfictionBooks.add(nonfictionBook);
-  }
-
-  public void addFictionBook(FictionBook fictionBook) {
-    fictionBooks.add(fictionBook);
+  public void addBook(Book book) {
+    books.add(book);
   }
 
   public void checkout() {
-    nonfictionBooks.forEach(NonfictionBook::checkout);
-    fictionBooks.forEach(FictionBook::checkout);
+    books.forEach(Book::checkout);
   }
 
   public void returnBook() {
-    nonfictionBooks.forEach(NonfictionBook::returnBook);
-    fictionBooks.forEach(FictionBook::returnBook);
+    books.forEach(Book::returnBook);
   }
-
-
 }
