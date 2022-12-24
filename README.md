@@ -471,9 +471,11 @@ This is used when we want to treat single objects & groups of objects in the sam
 We have an app managing a company's expenses:
  - `Manager` has a field `name` and a method `payExpenses(int amount)` which prints that the person with name `name` has been paid `amount` dollars.
  - `Salesperson` has a field `Manager` and a field `name` & a similar `payExpenses()` method
- - `SalesTeam` has two lists, one of `Manager`s and one for `SalesPerson`s and, again, the similar `payExpenses()` method.
+ - `SalesTeam` has two lists, one of `Manager`s and one for `Salesperson`s and, again, the similar `payExpenses()` method.
 
-We can refactor these classes in order to unify the identical `payExpenses()` methods and reduce duplicate code..
+We can refactor these classes in order to unify the identical `payExpenses()` methods and reduce duplicate code.
+
+We add the `Payee` interface which defines the identical method. Now, `Manager`, `Salesperson` & `SalesTeam` all implement it.
 
 ### Challenge 3
 

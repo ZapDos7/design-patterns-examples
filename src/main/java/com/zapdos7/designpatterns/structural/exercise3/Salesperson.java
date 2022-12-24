@@ -1,6 +1,6 @@
 package com.zapdos7.designpatterns.structural.exercise3;
 
-public class Salesperson {
+public class Salesperson implements Payee {
 
   private String name;
 

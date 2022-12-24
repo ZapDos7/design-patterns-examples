@@ -1,6 +1,6 @@
 package com.zapdos7.designpatterns.structural.exercise3;
 
-public class Manager {
+public class Manager implements Payee {
 
   private String name;
 
