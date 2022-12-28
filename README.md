@@ -497,6 +497,8 @@ Solution: We add the interface `ComponentsWithRedBorder` which `implements Compo
 
 ### Challenge 4
 
+Refactor a pizza ordering app similarly, in order to facilitate users desiring extra cheese on their pizza's toppings.
+
 ## Pattern 5: The Façade Pattern
 
 ### Exercise 5
