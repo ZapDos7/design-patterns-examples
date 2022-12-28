@@ -545,6 +545,8 @@ Solution:
 2. We add the factory to the main process, & when creating a new vehicle, we call its `getVehicle()` method implementing the aforementioned functionality.
 ### Challenge 6
 
+Refactor an animal population simulation app similarly.
+
 ## Pattern 7: The Proxy Pattern
 
 ### Exercise 7
