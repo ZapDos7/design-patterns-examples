@@ -493,6 +493,8 @@ Basically, we have the interface and some implementations. When we wish to add t
 
 Given a canva app which paints circles, we wish to add the functionality of drawing circles with red borders.
 
+Solution: We add the interface `ComponentsWithRedBorder` which `implements Component` and alter the `draw()` method accordingly. Then, in our `Canvas` class, we decorate the desired circle (e.g. `circle2`)
+
 ### Challenge 4
 
 ## Pattern 5: The Façade Pattern
