@@ -6,6 +6,11 @@ public class Main {
     order(new PizzaMargherita());
     order(new PizzaHawaiian());
     order(new PizzaPepperoni());
+    // print the added functionality
+    order(new PizzaExtraCheese(new PizzaMargherita()));
+    order(new PizzaExtraCheese(new PizzaHawaiian()));
+    order(new PizzaExtraCheese(new PizzaPepperoni()));
+    // TODO: fix - prints the original pizza's toppings twice
   }
 
   public static void order(Pizza pizza) {

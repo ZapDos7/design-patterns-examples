@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class PizzaHawaiian implements Pizza {
 
-  static ArrayList toppings = new ArrayList<String>();
-  static String name = "Hawaiiian";
+  static ArrayList<String> toppings = new ArrayList<>();
+  static String name = "Hawaiian";
 
   public PizzaHawaiian() {
     toppings.add("cheese");
@@ -15,7 +15,7 @@ public class PizzaHawaiian implements Pizza {
   }
 
 
-  public ArrayList getToppings() {
+  public ArrayList<String> getToppings() {
     return toppings;
   }
 

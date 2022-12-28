@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PizzaMargherita implements Pizza {
 
-  static ArrayList toppings = new ArrayList<String>();
+  static ArrayList<String> toppings = new ArrayList<>();
   static String name = "Margherita";
 
   public PizzaMargherita() {
@@ -13,7 +13,7 @@ public class PizzaMargherita implements Pizza {
   }
 
 
-  public ArrayList getToppings() {
+  public ArrayList<String> getToppings() {
     return toppings;
   }
 
