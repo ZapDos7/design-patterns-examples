@@ -484,7 +484,7 @@ Refactor similarly an app which simulates books checkouts & returns.
 ## Pattern 4: The Decorator Pattern
 
 It is used when:
- - we wish to add additional responsibilities to an object dynamically
+ - we wish to add additional responsibilities to an object *dynamically*
  - we want more flexibility than subclassing allows
 
 Basically, we have the interface and some implementations. When we wish to add traits onto one implementation, we encapsulate it into another.
@@ -500,6 +500,13 @@ Solution: We add the interface `ComponentsWithRedBorder` which `implements Compo
 Refactor a pizza ordering app similarly, in order to facilitate users desiring extra cheese on their pizza's toppings.
 
 ## Pattern 5: The Façade Pattern
+
+Hide complexity behind an interface, in order to simplify user experience.
+
+Benefits:
+ - makes it easier to use complex code
+ - promotes loose coupling
+ - it is not enforced - user can interact with the complex classes hidden behind the façade, if needed.
 
 ### Exercise 5
 ### Challenge 5
