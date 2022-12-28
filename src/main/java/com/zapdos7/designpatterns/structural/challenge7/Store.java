@@ -13,11 +13,11 @@ public class Store {
   }
 
   public void printName() {
-    System.out.println(name);;
+    System.out.println(name);
   }
 
   public void printLocation() {
-    System.out.println(location);;
+    System.out.println(location);
   }
 
   public void printInventory() {
