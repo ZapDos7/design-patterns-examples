@@ -564,6 +564,8 @@ We have the interface called `DisplayObject` which holds the `display()` method,
 
 The `load()` method in `ImageFile` is an expensive process consuming memory & time, and it's our refactoring goal.
 
+Solution: We create the `ImageProxy` class implementing `DisplayObject` with two fields, the image path and the actual imageFile, and an ameliorated `display()` method which checks if the file already exists. We also alter our main process accordingly.
+
 ### Challenge 7
 
 ## Further Reading
