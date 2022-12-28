@@ -515,7 +515,9 @@ We have an app which manages vacations (car rentals, hotel bookings & flight arr
 Solution: We create the façade class which handles the same functionality & update our main process.
 
 ### Challenge 5
-
+Refactor a driving car app similarly.
+- classes `Accelerator`, `Clutch`, `GearStick`, `Handbrake` & `Ignition` hold info as well as functions for each car part & its actions
+- `Car` class handles the main process which calls upon the methods needed in order to drive a car.
 ## Pattern 6: The Flyweight Pattern
 
 ### Exercise 6
