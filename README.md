@@ -549,6 +549,13 @@ Refactor an animal population simulation app similarly.
 
 ## Pattern 7: The Proxy Pattern
 
+*Virtual* proxies are used to save memory & improve performance. We create a proxy of an item when we want to access the item's *inexpensive* operations (e.g. `getWidth()`, `getHeight()` of an `image`) and we access the actual thing when we **need** the *expensive* operations (e.g. `loadImageFromDisk()`) - lazy loading.
+
+Common uses:
+ - representation of large objects in GUI,
+ - representation of expensive db ops
+ - protection proxies for authentication of access
+
 ### Exercise 7
 ### Challenge 7
 
