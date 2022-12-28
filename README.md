@@ -512,7 +512,7 @@ Benefits:
 
 We have an app which manages vacations (car rentals, hotel bookings & flight arrangements). With the façade pattern, we can unify the client's many calls of methods into one which simply books the entire vacation's details.
 
-Solution: We create the façade interface.
+Solution: We create the façade class which handles the same functionality & update our main process.
 
 ### Challenge 5
 
