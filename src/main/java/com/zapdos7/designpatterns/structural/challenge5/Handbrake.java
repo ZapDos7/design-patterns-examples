@@ -14,5 +14,13 @@ public class Handbrake {
     isUp = true;
   }
 
+  public boolean isUp() {
+    return isUp;
+  }
+
+  public void setUp(boolean isUp) {
+    this.isUp = isUp;
+  }
+
 
 }

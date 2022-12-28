@@ -9,4 +9,13 @@ public class GearStick {
     this.gear = gear;
   }
 
+  public int getGear() {
+    return gear;
+  }
+
+  public void setGear(int gear) {
+    this.gear = gear;
+  }
+
+  
 }
