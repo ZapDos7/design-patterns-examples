@@ -540,6 +540,9 @@ Classes:
  - its implementations: `Car`, `Truck`
  - `TrafficSimulator` which holds the main process
 
+Solution:
+1. Create `VehicleFactory` class to depict the flyweight object. Within it, we have `HashMap` of `Vehicle`s which hold the info for each vehicle. We check if a vehicle object of the specified type already exists; if it does, we handle it, otherwise we create a new one.
+2. We add the factory to the main process, & when creating a new vehicle, we call its `getVehicle()` method implementing the aforementioned functionality.
 ### Challenge 6
 
 ## Pattern 7: The Proxy Pattern

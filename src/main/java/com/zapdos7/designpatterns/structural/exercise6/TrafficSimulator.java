@@ -7,8 +7,8 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 public class TrafficSimulator {
-
   static ArrayList<Vehicle> vehicles = new ArrayList<>();
+  static VehicleFactory vehicleFactory = new VehicleFactory();
 
   public static void main(String[] args) {
 
@@ -32,12 +32,7 @@ public class TrafficSimulator {
   private static void createRandomCar() {
     Random random = new Random();
     int randInt = random.nextInt(2);
-    Vehicle vehicle = null;
-    if(randInt == 0) {
-      vehicle = new Car();
-    } else if(randInt == 1) {
-      vehicle = new Truck();
-    }
+    Vehicle vehicle = vehicleFactory.getVehicle(randInt);
     vehicle.setLocation(random.nextInt(1000), random.nextInt(1000));
     System.out.println("Creating " + vehicle + ", type: " + vehicle.getType() +
         ", location: " + vehicle.getLocation()[0] + " " + vehicle.getLocation()[1]);
