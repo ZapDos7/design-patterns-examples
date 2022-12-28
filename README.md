@@ -568,5 +568,7 @@ Solution: We create the `ImageProxy` class implementing `DisplayObject` with two
 
 ### Challenge 7
 
+Similarly refactor an app which handles a super market's inventory. The items are stored in a `List`, however in a real world scenario it would be a database, and thus accessing it would be even more costly. The issue here lies in the fact that `Main` we create the inventory at the start of the program but only access it at the end, and we could even never access it at all. We refactor the app in order to reduce memory usage & improve start up time, by not having the inventory be created there.
+
 ## Further Reading
  - [Design Pattern Catalog](https://java-design-patterns.com/patterns/)
