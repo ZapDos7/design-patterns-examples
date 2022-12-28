@@ -519,6 +519,18 @@ Refactor a driving car app similarly.
 - classes `Accelerator`, `Clutch`, `GearStick`, `Handbrake` & `Ignition` hold info as well as functions for each car part & its actions
 - `Car` class handles the main process which calls upon the methods needed in order to drive a car.
 ## Pattern 6: The Flyweight Pattern
+Useful when an app uses resources heavily, solves the issue of `java.lang.OutOfMemory` errors.
+
+Also can maximize performance when creating a new object.
+
+e.g. when typing a document, instead of creating a new `char a = 'a';` each time the user types the letter `a`, we reuse the same one.
+
+### Intrinsic vs Extrinsic State
+> *Intrinsic state is stored in the flyweight; it consists of information that's independent of the flyweight's context, thereby making it sharable. Extrinsic state depends on and varies with the flyweight's context and therefore can't be shared.* - [source](https://www.cs.unc.edu/~stotts/GOF/hires/pat4ffso.htm)
+
+So, in the letter example, intrinsic state refers to the character code (same for all objects) whereas extrinsic state to the position in page (different for every object).
+
+Flyweight objects allow to share the intrinsic states, so we reuse that, and the extrinsic state's info can be passed to the flyweight object when it needs it.
 
 ### Exercise 6
 ### Challenge 6
