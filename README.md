@@ -483,6 +483,12 @@ Refactor similarly an app which simulates books checkouts & returns.
 
 ## Pattern 4: The Decorator Pattern
 
+It is used when:
+ - we wish to add additional responsibilities to an object dynamically
+ - we want more flexibility than subclassing allows
+
+Basically, we have the interface and some implementations. When we wish to add traits onto one implementation, we encapsulate it into another.
+
 ### Exercise 4
 ### Challenge 4
 
