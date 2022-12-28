@@ -557,6 +557,13 @@ Common uses:
  - protection proxies for authentication of access
 
 ### Exercise 7
+
+Given an app which displays images like a slideshow, refactor using the Proxy Pattern.
+
+We have the interface called `DisplayObject` which holds the `display()` method, and the class `ImageFile` implementing it. Lastly, in `ImageGallery` we call these methods in order to display images from the `resources` folder.
+
+The `load()` method in `ImageFile` is an expensive process consuming memory & time, and it's our refactoring goal.
+
 ### Challenge 7
 
 ## Further Reading
