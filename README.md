@@ -490,6 +490,9 @@ It is used when:
 Basically, we have the interface and some implementations. When we wish to add traits onto one implementation, we encapsulate it into another.
 
 ### Exercise 4
+
+Given a canva app which paints circles, we wish to add the functionality of drawing circles with red borders.
+
 ### Challenge 4
 
 ## Pattern 5: The Façade Pattern
