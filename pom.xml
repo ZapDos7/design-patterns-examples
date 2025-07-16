@@ -26,7 +26,7 @@
 		<groupId>com.example</groupId>
 		<artifactId>uk-car-price-calculator</artifactId>
 		<scope>system</scope>
-		<version>1.0</version>
+		<version>3.3.12</version>
 		<systemPath>${basedir}/src/main/java/com/zapdos7/designpatterns/structural/exercise1/lib/uk-car-price-calculator.jar</systemPath>
 		</dependency>
 	</dependencies>
